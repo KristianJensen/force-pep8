@@ -1,0 +1,3 @@
+from force_pep8.extension import load_ipython_extension
+from force_pep8.extension import unload_ipython_extension
+from force_pep8.check_code import codes_to_ignore
