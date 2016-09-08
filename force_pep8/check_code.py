@@ -4,7 +4,8 @@ from six.moves import StringIO
 
 
 codes_to_ignore = [
-    "W292"
+    "W292",
+    "F821"
 ]
 
 
