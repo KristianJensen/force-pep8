@@ -62,5 +62,6 @@ def check_cell_code(code, test=False):
     # Write the error to stderr
     if test is False:
         sys.stderr.write(output)
+        sys.stderr.flush()
     return output
 
